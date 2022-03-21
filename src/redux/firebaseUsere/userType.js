@@ -1,0 +1,12 @@
+export const GOOGLE_SIGNUP = "GOOGLE_SIGNUP";
+export const GOOGLE_SIGNIN = "GOOGLE_SIGNIN";
+export const EMAIL_PASSWORD_SIGNUP = "EMAIL_PASSWORD_SIGNUP";
+export const EMAIL_PASSWORD_SIGNIN = "EMAIL_PASSWORD_SIGNIN";
+export const IS_USER_EXICET = "IS_USER_EXICET";
+export const LOG_OUT = "LOG_OUT";
+export const IS_LOADING = "IS_LOADING";
+export const ERORR = "ERORR";
+export const IS_SIGN = "IS_SIGN";
+export const IS_ADMIN = "IS_ADMIN";
+export const SET_PROFILE_NAME = "SET_PROFILE_NAME";
+export const PROFILE = "PROFILE";

@@ -1,0 +1,76 @@
+import React from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGoogle,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+const Footer = () => {
+  return (
+    <>
+      <div
+        className="container-fluid  mt-5 mx-0 p-0  bg-secondary text-white "
+        // style={{ height: "130%" }}
+      >
+        <div className="container-sm">
+          <div className="row">
+            <div className="col-md-4  mx-auto py-4">
+              <p>
+                we are promised to you to give the best services,we all ensure
+                that each persone get the best service,we are all with you any
+                time,
+              </p>
+            </div>
+            <div className="col-md-4  mx-auto text-center py-4">
+              <h4>Contact</h4>
+              <h6>
+                <FontAwesomeIcon icon={faPhone} /> Our Phone Number :
+                +8801516065154
+              </h6>
+              <h6>
+                {" "}
+                <FontAwesomeIcon icon={faPhone} /> Our Whatsapp Number :
+                +8801516065154
+              </h6>
+            </div>
+            <div className="col-md-4  mx-auto text-center py-4">
+              <h4> Social contact</h4>
+              <div className="d-flex justify-content-center gap-3">
+                <h2>
+                  <a
+                    className="text-white"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
+                </h2>
+                <h2>
+                  <FontAwesomeIcon icon={faGoogle} />
+                </h2>
+                <h2>
+                  <a
+                    className="text-white"
+                    href="https://github.com/Nazmul-dot"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </h2>
+              </div>
+            </div>
+            <div className="col-12 mb-2 text-center">
+              <footer className="fs-2 shadow">
+                &copy; Nazmul Haque {new Date().getFullYear()}
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Footer;

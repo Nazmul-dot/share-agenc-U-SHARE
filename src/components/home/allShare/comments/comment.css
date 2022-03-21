@@ -1,0 +1,6 @@
+.scrolling::-webkit-scrollbar {
+  width: 4px;
+  background-color: rgb(192, 189, 189);
+
+  border-radius: 20px;
+}
